@@ -1,0 +1,112 @@
+body {
+	font-family: "RobotoDraft", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+#base {
+	background: #2b323a;
+}
+
+.first {
+	padding-top: 100px;
+	height: 500px;
+	/*background-color: #2b323a;*/
+    z-index: 100;
+    background: url(../images/skyline-bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.second {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	height: auto;
+	
+	/*background: #dddddd url(../images/temp-logo-lg.png);*/
+	background: #ffffff url(../images/noise.png);
+	z-index: 99;
+}
+
+.first .product-desc {
+	color: white;
+}
+
+#content {
+	padding-top: 0 !important;
+}
+
+.third {
+	height: 500px;
+	/*background-color: #2b323a;*/
+	background: url(../images/macair-overlay.png);
+    background-size: cover;
+	z-index: 98;
+	padding-top: 100px;
+	background-attachment: fixed;
+}
+
+.fourth {
+	height: 500px;
+	/*background: url(../images/macair-overlay.png);
+    background-size: cover;*/
+    background: #ffffff url(../images/noise.png);
+	z-index: 100;
+}
+
+.footer {
+	height: 50px;
+	background-color: #1e1e1e;
+	z-index: 97;
+	padding-top: 7px;
+}
+
+.footer div img {
+	max-width: 45px;
+}
+
+/*infoshift css*/
+
+
+
+.div-shadow {
+	-webkit-box-shadow: 0px 4px 17px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 17px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 17px -1px rgba(0,0,0,0.75);
+}
+
+.screen-shot {
+	max-width: 100%
+}
+
+.custom-button {
+	border: 2px solid white;
+	background-color: transparent;
+}
+
+.content {
+	text-align: justify;
+}
+
+.stuff {
+	height: 300px;
+	width: 300px;
+	border: 5px solid white;
+	padding-top: 70px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.stuff hr {
+	border-color: #ffffff;
+}
+
+.stuff .stuff-label {
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.stuff-icon {
+	max-width: 45px;
+}
